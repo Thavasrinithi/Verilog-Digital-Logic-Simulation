@@ -54,6 +54,8 @@ The output waveforms were checked against the corresponding logic-gate truth tab
 A Half Adder was designed and simulated using Verilog HDL.
 
 ### Circuit Diagram
+<img width="329" height="201" alt="image" src="https://github.com/user-attachments/assets/0c8adf80-031a-4285-880b-bfcce6c2b502" />
+
 
 ![Half Adder Circuit Diagram](Half_Adder/Half_Adder_circuit.jpeg)
 
