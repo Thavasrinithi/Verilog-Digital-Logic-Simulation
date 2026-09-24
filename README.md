@@ -57,7 +57,6 @@ A Half Adder was designed and simulated using Verilog HDL.
 <img width="329" height="201" alt="image" src="https://github.com/user-attachments/assets/0c8adf80-031a-4285-880b-bfcce6c2b502" />
 
 
-![Half Adder Circuit Diagram](Half_Adder/Half_Adder_circuit.jpeg)
 
 ### Inputs and Outputs
 
@@ -66,8 +65,8 @@ A Half Adder was designed and simulated using Verilog HDL.
 
 ### Logic Equations
 
-- Sum = A XOR B
-- Carry = A AND B
+- Sum = A'B + AB'
+- Carry = A ⋅ B
 
 ### Project Files
 
