@@ -65,7 +65,7 @@ A Half Adder was designed and simulated using Verilog HDL.
 
 ### Logic Equations
 
-- Sum = A'B + AB'
+- Sum = A ⊕ B or (A'B + AB')
 - Carry = A ⋅ B
 
 ### Project Files
@@ -96,3 +96,54 @@ The output waveforms were checked against the Half Adder truth table.
 - Testbench creation
 - Truth table verification
 - Simulation and waveform analysis
+
+- ## Full Adder
+
+A Full Adder was designed and simulated using Verilog HDL.
+
+### Circuit Diagram
+<img width="329" height="201" alt="image" src="YOUR_FULL_ADDER_CIRCUIT_IMAGE_LINK" />
+
+### Inputs and Outputs
+
+- Inputs: A, B, Cin
+- Outputs: Sum, Carry
+
+### Logic Equations
+
+- Sum = A ⊕ B ⊕ Cin
+- Carry = AB + BCin + ACin
+
+### Project Files
+
+- `Full_Adder.v` – Verilog design for the Full Adder
+- `Full_Adder_tb.v` – Testbench used to verify the Full Adder
+- `Full_Adder_code.jpeg` – Screenshot of the Verilog code
+- `Full_Adder_waveform.jpeg` – Simulation waveform screenshot
+
+### Simulation
+
+All eight possible input combinations were applied:
+
+| **A** | **B** | **Cin** | **Sum** | **Carry** |
+| ------ | ------ | ------ | ------ | ------ |
+| 0 | 0 | 0 | 0 | 0 |
+| 0 | 0 | 1 | 1 | 0 |
+| 0 | 1 | 0 | 1 | 0 |
+| 0 | 1 | 1 | 0 | 1 |
+| 1 | 0 | 0 | 1 | 0 |
+| 1 | 0 | 1 | 0 | 1 |
+| 1 | 1 | 0 | 0 | 1 |
+| 1 | 1 | 1 | 1 | 1 |
+
+The output waveforms were checked against the Full Adder truth table.
+
+### Learning Outcome
+
+- Full Adder circuit operation
+- XOR, AND and OR gate implementation
+- Verilog gate-level modeling
+- Testbench creation
+- Truth table verification
+- Simulation and waveform analysis
+- Understanding of combinational circuit design
