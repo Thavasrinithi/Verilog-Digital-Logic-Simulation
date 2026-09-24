@@ -49,7 +49,7 @@ The output waveforms were checked against the corresponding logic-gate truth tab
 - Simulation and waveform analysis
 - Basic digital design workflow
 
-## Half Adder
+# Half Adder
 
 A Half Adder was designed and simulated using Verilog HDL.
 
@@ -97,12 +97,12 @@ The output waveforms were checked against the Half Adder truth table.
 - Truth table verification
 - Simulation and waveform analysis
 
-- ## Full Adder
+# Full Adder
 
 A Full Adder was designed and simulated using Verilog HDL.
 
 ### Circuit Diagram
-<img width="329" height="201" alt="image" src="YOUR_FULL_ADDER_CIRCUIT_IMAGE_LINK" />
+<img width="664" height="615" alt="image" src="https://github.com/user-attachments/assets/588821f2-515d-4bf7-ac59-a41a6b3c2732" />
 
 ### Inputs and Outputs
 
